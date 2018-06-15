@@ -21,6 +21,13 @@ npm install
 npm start
 ```
 
+## Docker
+
+```
+docker build -t node-pet-api .
+docker run --name node-pet-api -p 3002:3002 node-people-api
+```
+
 ## Test
 
 ```
